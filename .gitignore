@@ -1,0 +1,23 @@
+# Ignorar archivos CSV del dataset
+dataset/*.csv
+
+# Ignorar binarios de compilación
+*.exe
+*.out
+*.bin
+
+# Ignorar dependencias externas descargadas
+vendor/
+
+# Archivos temporales de Go
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
